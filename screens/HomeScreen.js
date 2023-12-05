@@ -5,8 +5,8 @@ import * as LocalAuthentication from 'expo-local-authentication';
 import Modal from 'react-native-modal';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const collegeLocation = { latitude: 10.95540815715271,  longitude:  77.95481055369386 };
-const allowedDistance = 40000;
+const collegeLocation = { latitude: 10.95509379382751,    longitude: 77.9548367823787 };
+const allowedDistance = 400;
 const maxWaitTimeInSeconds = 10;
 
 export default function HomeScreen() {

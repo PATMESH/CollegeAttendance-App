@@ -14,7 +14,6 @@ const Students = ({ route, navigation }) => {
         const apiUrl = 'https://vsbec-placement-backend.onrender.com/student/all';
         const response = await fetch(apiUrl);
         const data = await response.json();
-        console.log(data);
         const filteredStudents = data.filter(student => {
           return (
             student.department === department &&
