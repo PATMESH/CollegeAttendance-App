@@ -20,7 +20,7 @@ const StaffLogin = ({ navigation }) => {
     }
     setLoading(true);
 
-    if (password === "VSBECCSE2002") {
+    if (password === "VSBEC2002") {
         setLoading(false)
         navigation.navigate('Students', {
             department: department,
