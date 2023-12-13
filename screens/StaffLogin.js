@@ -34,7 +34,6 @@ const StaffLogin = ({ navigation }) => {
             setLoading(false);
         },1000);
     }
-    
   };
 
   const departmentData = [
@@ -50,6 +49,7 @@ const StaffLogin = ({ navigation }) => {
     { label: 'AIDS', value: 'AIDS', key: '10' },
     { label: 'CSBS', value: 'CSBS', key: '11' },
   ];
+  
   const [openD, setOpenD] = useState(false);
   const [openS, setOpenS] = useState(false);
   const [openY, setOpenY] = useState(false);
