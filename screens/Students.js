@@ -94,7 +94,6 @@ const Students = ({ route, navigation }) => {
   );
 };
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -145,7 +144,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  
   studentName: {
     fontSize: 20,
     fontWeight: 'bold',
