@@ -90,8 +90,6 @@ export default function HomeScreen() {
     }
   };
   
-  
-  
   const calculateDistance = (coords1, coords2) => {
     const R = 6371;
     const dLat = toRadians(coords2.latitude - coords1.latitude);
