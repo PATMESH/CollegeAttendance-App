@@ -12,6 +12,7 @@ const StaffLogin = ({ navigation }) => {
   const [error, setError] = useState('');
   const sectionValues = ["A", "B", "C"];
   const yearValues = ["First", "Second", "Third", "Final"];
+  const actualPassword = "VSBEC2002";
 
   const handleLogin = async () => {
     if ( !password || !department || !year) {
@@ -20,7 +21,7 @@ const StaffLogin = ({ navigation }) => {
     }
     setLoading(true);
 
-    if (password === "VSBEC2002") {
+    if (password === actualPassword) {
         setLoading(false)
         navigation.navigate('Students', {
             department: department,
